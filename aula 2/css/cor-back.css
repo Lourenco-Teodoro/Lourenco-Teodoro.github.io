@@ -1,0 +1,54 @@
+
+        .texto-simples{
+            color: aquamarine            ;
+        }
+        #texto-complexo{
+            color: rgb(255, 0, 00);
+        }
+
+        .texto-translucido{
+            color: rgba(255, 0, 0, 0.5);
+        }
+
+        .back-simples{
+            background-color: #0000FF;
+        }
+        .back-translucido{
+            background-color: rgba(0, 255, 0, 0.3);
+        }
+
+        .back-imagem-unica{
+            background-image: url('/imagens/css_2.png');
+            background-repeat: no-repeat;
+        }
+        .posicao-especifica{
+            background-position: bottom right ;
+            background-attachment: fixed;
+        }
+        .box{
+            border: 1px solid black;
+            border-radius: 8px;
+            padding: 8px;
+            width: 50%;
+            height: 50%;
+            min-height: 150px;
+            min-width: 150px;
+        }
+
+        #back-imagens-multiplas{
+            background-image: url('/imagens/css_2.png'), url('/imagens/css_1.png');
+            background-repeat: no-repeat,no-repeat;
+            background-position: top left, bottom right;
+            background-size: 60px,60px;
+        }
+        .imagem-canto-hp-p-f{
+            background-image: url('/imagens/casa1.jfif'), url('/imagens/casa2.jpg'),
+            url('/imagens/casa3.jfif'), url('/imagens/casa4.jfif');
+            background-repeat: no-repeat, no-repeat, no-repeat, no-repeat;
+            background-position: top left, top right, bottom left, bottom right;
+            background-size: 64px,64px,64px,64px;
+        }
+
+        .teste{
+            background-image: linear-gradient(black,#fff);
+        }
