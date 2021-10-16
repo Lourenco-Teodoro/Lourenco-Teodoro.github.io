@@ -1,6 +1,6 @@
 header {
 
-    background: lightskyblue; 
+    background: 21%blue; 
     
     margin: 10px;
     
@@ -37,8 +37,7 @@ header {
 
         }
         article{
-            width: 300px;
-        }
+            min-width: 200px;        }
         
         section{
                 display: flex;
